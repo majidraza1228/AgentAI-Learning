@@ -1,0 +1,23 @@
+[
+  {
+    "id": "doc_001#p3",
+    "source": "docs/product_guide.md",
+    "title": "MCP in VS Code — Setup",
+    "page": 3,
+    "score": 0.86,
+    "tags": ["mcp", "setup", "vscode"],
+    "content": "Install the MCP extension, configure the server URI, then reload VS Code."
+  },
+  {
+    "id": "trace#run:7",
+    "source": "traces/2025-11-15.jsonl",
+    "title": "Tool trace sample",
+    "score": 0.73,
+    "events": [
+      {"ts": "2025-11-15T02:03:04Z", "tool": "search", "ok": true, "ms": 142},
+      {"ts": "2025-11-15T02:03:05Z", "tool": "fetch", "ok": true, "url": "https://example.com", "ms": 208},
+      {"ts": "2025-11-15T02:03:07Z", "tool": "summarize", "ok": false, "error": "rate_limit"}
+    ],
+    "content": "Outcome: partial due to rate limiting."
+  }
+]
